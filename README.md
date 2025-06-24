@@ -18,7 +18,9 @@ A simple bug tracking web app built with React (frontend) and Flask (backend).
 
 ## 🚀 How to Run
 
-### Backend
+### Setup
+
+**Backend**
 
 ```bash
 cd backend
@@ -26,4 +28,12 @@ python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+```
 
+**Frontend**
+
+```bash
+cd frontend
+npm install
+npm start
+```
